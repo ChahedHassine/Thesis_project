@@ -8,7 +8,7 @@ from rdflib.namespace import CSVW, DC, DCAT, DCTERMS, DOAP, FOAF, ODRL2, ORG, OW
                            PROF, PROV, RDF, RDFS, SDO, SH, SKOS, SOSA, SSN, TIME, \
                            VOID, XMLNS, XSD
 
-# Create a Graph
+# Create a Graph of pieces and cameras
 
 g = Graph()
 group1 = URIRef("http://example.org/group1")
