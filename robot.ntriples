@@ -1,0 +1,20 @@
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+
+<http://example.org/group2> a owl:Class .
+
+<http://example.org/piece0> a <http://example.org/group1> .
+
+<http://example.org/piece1> a <http://example.org/group1> .
+
+<http://example.org/piece3> a <http://example.org/group1> .
+
+<http://example.org/piece5> a <http://example.org/group1> .
+
+<http://move_artifact2@comnets-pc08> a <http://example.org/camera> .
+
+<http://move_artifact@comnets-pc08> a <http://example.org/camera> .
+
+<http://example.org/camera> a owl:Class .
+
+<http://example.org/group1> a owl:Class .
+
