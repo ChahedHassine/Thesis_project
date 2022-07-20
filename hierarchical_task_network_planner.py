@@ -77,7 +77,7 @@ class HierarchicalTaskNetworkPlanner:
                 return   [('initial_position',a,b),('gripper_open',a,b),('locate_piece',a,b),('move_arm_down1',a,b),('gripper_clamp',a,b),('move_arm_up',a,b),('initial_position',a,b),('move_chess',a,b),('move_arm_down3',a,b),('gripper_open',a,b),('move_arm_up',a,b),('initial_position',a,b)]             
     
     #TODO: nesting of more than 2 levels deep
-    pyhop.declare_methods('move_piece',move_arm)
+    pyhop.declare_methods('move_piece',move_arm) # declare methods
 
 
     def get_plans(self, world_model, goal):

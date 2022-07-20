@@ -110,6 +110,7 @@ class MyBehav(OneShotBehaviour):
                         else:
                             print("failure no plan")
                     else:
+                        '''if plan selected than execute actions'''
                         print("yessssssssssssssssssssss enter the second condition")
                         print(self.selected_plan)
                         self.action, self.selected_plan = self.selected_plan.popleft(), self.selected_plan  # α := hd(π); π := tail(π); pop the selected plan and get the action
